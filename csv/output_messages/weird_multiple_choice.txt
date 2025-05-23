@@ -1,0 +1,26 @@
+Iteration 1 of 1:
+/Users/mikeweber/Desktop/ECON KU S25/DP Project/dynamic_model_1/dynamic_model_2/utility.py:17: RuntimeWarning: invalid value encountered in log
+  return np.exp(1) - par.sigma*np.log(ccps_i)
+
+New eq found: Total number of eqa is 1
+
+
+1 iterations took 1269.07 seconds
+Root-finder failed: The iteration is not making good progress, as measured by the 
+ improvement from the last ten iterations.
+Solution: [[0.0812783  0.20275927 0.2448607  ... 0.00438007 0.30267004 0.28650396]]
+     n_i  n_j  FC  action       p_i       p_j
+0      0    0   0       0  0.081278  0.081278
+1      0    0   0       1  0.202759  0.202759
+2      0    0   0       2  0.244861  0.244861
+3      0    0   0       3  0.104046  0.104046
+4      0    0   0       4  0.209149  0.209149
+..   ...  ...  ..     ...       ...       ...
+985    4    0  10       1  0.342925  0.342925
+986    4    0  10       2  0.102343  0.102343
+987    4    0  10       3  0.047894  0.047894
+988    4    0  10       4  0.224695  0.224695
+989    4    0  10       5  0.020294  0.020294
+
+[990 rows x 6 columns]
+findfont: Font family ['DejaVu Sans Display'] not found. Falling back to DejaVu Sans.
